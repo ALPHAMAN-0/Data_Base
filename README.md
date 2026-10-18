@@ -5,12 +5,11 @@ A hands-on learning repository covering **relational databases**, **SQL**, **ER 
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[Data Base]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    A["DATA BASE"]
+    B["Docker"]
+    C["ER Diagram"]
+    D["Image"]
 ```
 
 
