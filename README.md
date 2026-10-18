@@ -2,6 +2,18 @@
 
 A hands-on learning repository covering **relational databases**, **SQL**, **ER diagram design**, and **Docker** containerization for database environments.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[Data Base]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ---
 
 ## Contents
