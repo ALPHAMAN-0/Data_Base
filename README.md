@@ -2,6 +2,17 @@
 
 A hands-on learning repository covering **relational databases**, **SQL**, **ER diagram design**, and **Docker** containerization for database environments.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart TD
+    A["DATA BASE"]
+    B["Docker"]
+    C["ER Diagram"]
+    D["Image"]
+```
+
+
 ---
 
 ## Contents
@@ -52,9 +63,9 @@ A hands-on learning repository covering **relational databases**, **SQL**, **ER 
    git clone https://github.com/ALPHAMAN-0/Data-Base.git
    ```
 2. **SQL Practice**: Load `HR.sql` into your database instance and run queries.
-3. **Docker Setup**: Follow `Docker/Docker.md` for commands, or run the MongoDB compose file:
+3. **Docker Setup**: Follow `Docker/Docker.md` for commands, or run the MongoDB compose file (first copy `.env.example` to `.env` in that folder and set your own credentials):
    ```bash
-   cd Docker/How\ to\ install\ mongo/
+   cd Docker/How\ to\ install\ mongo\ /
    docker compose -f MongoDB.yaml up
    ```
 4. **ER Diagrams**: Open `.drawio` files at [app.diagrams.net](https://app.diagrams.net) or in VS Code with the Draw.io extension.
